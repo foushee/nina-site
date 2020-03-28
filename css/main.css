@@ -21,7 +21,7 @@ nav {
 }
 .navbar {
     margin-top: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     border-bottom: 1.2px solid #003D4C;
     border-top: 1.2px solid #003D4C;
 }
@@ -57,17 +57,30 @@ div.container {
     text-align: justify;
     margin: 0 auto; 
 }
+.header{
+    position: relative;
+    float: center;
+    text-align: center;
+}
 .header-image {
   position: relative;
   text-align: center;
   color: white;
+  width: 100%;
+  margin-bottom: 20px;
   }
 .image-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+}
+.bio {
+    position: relative;
+    float:center;
+    width: 100%;
+    margin:0 auto;
+    text-align: center;
 }
 a {
     text-decoration: none;
@@ -107,31 +120,34 @@ a.link {
     vertical-align: middle;
 }
 h1 {
-    font-size: 1.9em;
+    font-size: 2.4em;
     font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
     text-transform: uppercase;
-    line-height: 30px;
-    letter-spacing: .25em;
+    line-height: 20px;
+    letter-spacing: .18em;
     color: #9DDCDC;
 }
 h1.subheading {
     letter-spacing: 0.1em;
-    font-size: 1.7em;
+    font-size: 2em;
 }
 h2 {
     font-size: 1.3em;
-    color: #333;
+    color: #003D4C;
 }
 
 p {
     font-family: Lato, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.25em;
+    font-weight: thin;
     line-height: 1.3em;
-    color: #333;
+    color: #003D4C;
     text-align: justify;
 }
 p.testimonial {
     font-style: oblique;
+    font-weight: lighter;
 }
 p.reviewer {
     font-size: 1em;
@@ -140,5 +156,5 @@ p.reviewer {
 ul li, ol li {
     font-size: 1.5em;
     line-height: 1.2em;
-    color: #333;
+    color: #003D4C;
 }
