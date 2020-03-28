@@ -12,7 +12,7 @@
 body {
     margin: 0;
     text-align: justify;
-    color: #333;
+    color: #003D4C;
     font-family: 'Lato';
 }
 nav {
@@ -20,16 +20,21 @@ nav {
     width:100%;
 }
 .navbar {
-    border-bottom: 2px solid #333;
-    border-top: 2px solid #333;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-bottom: 1.2px solid #003D4C;
+    border-top: 1.2px solid #003D4C;
 }
 nav ul, footer ul {
     font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: .75em;
+    color: #003D4C;
     text-transform: uppercase;
-    padding: 5px;
+    padding: 4px;
     list-style: none;
     text-align: center;
-    width: 70%;
+    width: 60%;
     margin: 16px auto;
 }
 nav > ul > li, footer > ul > li {
@@ -41,10 +46,10 @@ nav > ul > li, footer > ul > li {
     background-color: white;
 }
 nav a {
-    color: #333;
+    color: #003D4C;
 }
 nav a:hover {
-    color: #003D4C;
+    color: #9DDCDC;
 }
 
 div.container {
@@ -62,6 +67,7 @@ div.container {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
 }
 a {
     text-decoration: none;
@@ -69,10 +75,10 @@ a {
 }
 a:hover {
     text-decoration: none;
-    color: #003D4C;
+    color: #9DDCDC;
 }
 a.active {
-    color: #333;
+    color: #003D4C;
 }
 
 a.title {
@@ -104,9 +110,9 @@ h1 {
     font-size: 1.9em;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    line-height: 20px;
-    letter-spacing: 1.2em;
-    color: #333;
+    line-height: 30px;
+    letter-spacing: .25em;
+    color: #9DDCDC;
 }
 h1.subheading {
     letter-spacing: 0.1em;
