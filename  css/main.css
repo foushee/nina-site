@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Raleway';
+}
+@font-face {
+    font-family: 'Lato';
+}
+@font-face {
+    font-family: 'Monserrat';
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    text-align: justify;
+    color: #333;
+    font-family: 'Lato';
+}
+nav {
+    display: table;
+    width:100%;
+}
+.navbar {
+    border-bottom: 2px solid #333;
+    border-top: 2px solid #333;
+}
+nav ul, footer ul {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+    width: 70%;
+    margin: 16px auto;
+}
+nav > ul > li, footer > ul > li {
+    display: inline;
+    margin-left: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: -5px;
+    background-color: white;
+}
+nav a {
+    color: #333;
+}
+nav a:hover {
+    color: #003D4C;
+}
+
+div.container {
+    width: 60%;
+    text-align: justify;
+    margin: 0 auto; 
+}
+.header-image {
+  position: relative;
+  text-align: center;
+  color: white;
+  }
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 60%);
+}
+a:hover {
+    text-decoration: none;
+    color: #003D4C;
+}
+a.active {
+    color: #333;
+}
+
+a.title {
+    font-size:1.5em;
+}
+td.subheading {
+    font-size:1.5em;
+    text-align: left;
+    vertical-align: top;
+}
+img.icon {
+    -moz-border-radius:5px;
+    border-radius: 5px;
+    float: bottom;
+    margin-left: 0px; 
+    margin-right: 0px; 
+    margin-top: 0px; 
+    width: 60px
+}
+a.full-pic {
+    -moz-border-radius:10px;
+    border-radius: 10px;
+}
+a.link {
+    font-size:1em;
+    vertical-align: middle;
+}
+h1 {
+    font-size: 1.9em;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: 1.2em;
+    color: #333;
+}
+h1.subheading {
+    letter-spacing: 0.1em;
+    font-size: 1.7em;
+}
+h2 {
+    font-size: 1.3em;
+    color: #333;
+}
+
+p {
+    font-family: Lato, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    color: #333;
+    text-align: justify;
+}
+p.testimonial {
+    font-style: oblique;
+}
+p.reviewer {
+    font-size: 1em;
+}
+
+ul li, ol li {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    color: #333;
+}
