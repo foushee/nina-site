@@ -90,7 +90,7 @@ div.container {
 .testimonial {
     position: relative;
     color: #003D4C;
-    margin-bottom: 20px;
+    margin-bottom: 26px;
 }
 a {
     text-decoration: none;
@@ -149,7 +149,7 @@ h2 {
 
 p {
     font-family: Lato, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.16em;
     font-weight: light;
     line-height: 1.2em;
     color: #003D4C;
@@ -161,7 +161,7 @@ p.quote {
 p.reviewer {
     font-size: 1em;
     text-align: left;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 ul li, ol li {
