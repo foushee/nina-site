@@ -94,14 +94,14 @@ div.container {
 }
 a {
     text-decoration: none;
-    color: hsl(0, 0%, 60%);
+    color: hsl(0, 0%, 55%);
 }
 a:hover {
     text-decoration: none;
     color: #9DDCDC;
 }
 a.active {
-    color: #003D4C;
+    color: #9DDCDC;
 }
 
 a.title {
