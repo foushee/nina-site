@@ -18,9 +18,11 @@ body {
 nav {
     display: table;
     width:100%;
+    position: relative;
+
 }
 .navbar {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 20px;
     border-bottom: 1.2px solid #003D4C;
     border-top: 1.2px solid #003D4C;
@@ -28,10 +30,10 @@ nav {
 nav ul, footer ul {
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
-    font-size: .75em;
+    font-size: .78em;
     color: #003D4C;
     text-transform: uppercase;
-    padding: 4px;
+    padding: 1px;
     list-style: none;
     text-align: center;
     width: 60%;
@@ -67,6 +69,7 @@ div.container {
   text-align: center;
   color: white;
   width: 100%;
+  margin-top:15px;
   margin-bottom: 20px;
   }
 .image-text {
@@ -77,10 +80,17 @@ div.container {
 }
 .bio {
     position: relative;
-    float:center;
     width: 100%;
-    margin:0 auto;
-    text-align: center;
+}
+.bio-text {
+  position: absolute;
+  left:31%;
+  width:69%;
+}
+.testimonial {
+    position: relative;
+    color: #003D4C;
+    margin-bottom: 20px;
 }
 a {
     text-decoration: none;
@@ -126,7 +136,7 @@ h1 {
     text-transform: uppercase;
     line-height: 20px;
     letter-spacing: .18em;
-    color: #9DDCDC;
+    color: white;
 }
 h1.subheading {
     letter-spacing: 0.1em;
@@ -139,18 +149,19 @@ h2 {
 
 p {
     font-family: Lato, sans-serif;
-    font-size: 1.25em;
-    font-weight: thin;
-    line-height: 1.3em;
+    font-size: 1.2em;
+    font-weight: light;
+    line-height: 1.2em;
     color: #003D4C;
     text-align: justify;
 }
-p.testimonial {
-    font-style: oblique;
-    font-weight: lighter;
+p.quote {
+    font-style: italic;
 }
 p.reviewer {
     font-size: 1em;
+    text-align: left;
+    font-weight: bold;
 }
 
 ul li, ol li {
